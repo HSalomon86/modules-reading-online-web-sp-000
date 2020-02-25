@@ -1,5 +1,6 @@
 module FancyDance
   module InstanceMethods              # you "include" these instance methods
+    include Dance
     def superjump
       "I'm just one jumping instance"
     end
