@@ -1,8 +1,8 @@
 module FancyDance
-  module InstanceMethods              # you "include" these instance methods
+  module InstanceMethods              
     include Dance
   end
-  module ClassMethods                 # you "extend" these class methods
+  module ClassMethods
     include MetaDancing
   end
 end
