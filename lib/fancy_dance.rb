@@ -7,8 +7,5 @@ module FancyDance
   end
   module ClassMethods                 # you "extend" these class methods
     include MetaDancing
-    def megajump
-      "I'm a whole class of MOFO's jumping"
-    end
   end
 end
